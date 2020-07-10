@@ -2,13 +2,15 @@ import tweepy
 import time
 import logging
 import random
+import os
+from os import environ
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 # Authenticate to Twitter
-API_KEY = "YIPJa1YsSG1mBita7eVh5JGVR"
-API_SKEY = "IHVLraNh905XerrIdMzR8ErMUMAKDpf5QYXEcjNB2LQicxsGco"
-ACC_Token = "1281628837650956288-xRBtwS8vC8HbMcWLZHSVamUzxtNLgA"
-ACC_Token_Secret = "PtadSUoJRhaFE5vYtisPrA0bNKg2N0tjYp8WsIJbXpVkc"
+API_KEY = environ["API_KEY"]
+API_SKEY = environ["API_SKEY"]
+ACC_Token = environ["ACC_Token"]
+ACC_Token_Secret = environ["ACC_Token_Secret"]
 auth = tweepy.OAuthHandler(API_KEY,API_SKEY)
 auth.set_access_token(ACC_Token,ACC_Token_Secret)
 api = tweepy.API(auth, wait_on_rate_limit=True,
