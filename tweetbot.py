@@ -6,7 +6,7 @@ import os
 from os import environ
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
-# Authenticate to Twitter
+# Authenticating to to Twitter
 API_KEY = environ["API_KEY"]
 API_SKEY = environ["API_SKEY"]
 ACC_Token = environ["ACC_Token"]
