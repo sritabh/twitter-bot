@@ -17,7 +17,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True,
     wait_on_rate_limit_notify=True)
 FILE_NAME = 'last_seen_id.txt' #contains time for last tweet
 
-hashtag = "#CusatWantsGeneralPromotion #cancelcusatexams"
+hashtag = "#CusatWantsGeneralPromotion #noexamcusat"
 hashtag2 = "#cusat"
 reply_tweets = ["Yes Exactly!!!","Cutting down a 3 hour exam to 2 hours leaves students at a loss as poor internet connections and unreliable.."
             ,"No study materials, no classes ,intermediate semesters exams should be canceled. Let them conduct Supply mentry exams, bcz students have already attended the classes"
