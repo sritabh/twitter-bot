@@ -17,24 +17,32 @@ api = tweepy.API(auth, wait_on_rate_limit=True,
     wait_on_rate_limit_notify=True)
 FILE_NAME = 'last_seen_id.txt' #contains time for last tweet
 
-hashtag = "#noexamcusat @CMOKERALA @KERALAGOVERNOR @ugc_india @nidhiindiatv @shashitharoor @24onlive"
+hashtag = "#cancelcusatsemexams"
 hashtag2 = "#cusat"
-reply_tweets = ["Yes Exactly!!!","Cutting down a 3 hour exam to 2 hours leaves students at a loss as poor internet connections and unreliable.."
-            ,"No study materials, no classes ,intermediate semesters exams should be canceled. Let them conduct Supply mentry exams, bcz students have already attended the classes"
-            ,"We dont even have books to study for the exams. We all left our hostels in a hurry. And our university is interested in conducting exams so that they could collect next sem fees and exam fees. #StudentsLivesMatter "
-            ,"Cancel the examinations",
-            "It is extremely unfair to conduct exams during the Covid19 pandemic.",
-            "Iits and nits cancelled the exam and decided to give result on the basis of internal marks and previous year sem exam then why not cusat",
-            "degree>>>education ?",
-            "Iits and nits cancelled the exam and decided to give result on the basis of internal marks and previous year sem exam then why not cusat",
-            "Camera on, video call, asking for live locations. What are you ? My girlfriend ?",
-            "Less than 5 days given for external preparation  #cusatexams #speakupforstudents #cusat #ugc",
-            "Taking exams after reading ppts in online classes. This is not fair #cusat #speakupforstudents #cancelallexams",
-            "Teaching one question is enough for one chapter. Is this a fair move?",
-            "Conducting exams after taking 2hr online class to complete 1 week course is not fair",
-            "If other exams can cancel the exams why not #CUSAT #Cusatexams",
-            "It looks like our opinion doesn't matters",
-            "It's not fair to have exams in between the pandemic everyone is suffering either mentally or physically!"
+reply_tweets = ["Yes Exactly!!!","KTU exams cancelled.\nNIT exams cancelled.\nIITs cancelled their exams .... Then why can't @CUSAT",
+                "I'm really frustrated on conducting present semester exams because how can a student like me whose parents are in quarantine and me who shifted to other home in this pandemic and facing network issues can attend online exams...? How..? I'm really depressed.",
+                "@CMOKerala @KeralaGovernor @manoramanews @asianetnewstv @THKerala @IndianExpress \nHave the authorities ever thought of the concerns of students? They have to first prepare for their 3rd sem, then to prepare for the 2nd sem exams and then again bck to 3rd sem",
+                "Please cancel CUSAT intermediate sem exams  @KeralaGovernor @CMOKerala @manoramanews @asianetnewstv @THKerala",
+"Cusat is again planning to conduct intermediate sem xams during this pandamic.Even IITs and KTU cancelled their exams considering the problems of students but cusat wants to conduct it in between the new semester classesZipper-mouth face @KeralaGovernor @vijayanpinarayi",
+"Cusats is also asking for fees of 26k and 40k with fine and superfine. It is acting like a private institute but it still is a govt university. ",
+"Notebooks:NO \nProper internet:NO \nStudy materials:NO\nConceptual knowledge:NO\nExams:YES\nAnd you wonder why students commit suicide? ",
+"If IITS's and KTU can cancel their sem exams why cant cusat too\n @ShashiTharoor\n@KeralaGovernor\n@asianetnewstv",
+"CUSAT is playing with lives of student. First of all they started the new semester and suddenly announced semester exams for the previous semester",
+"Dear CUSAT administration, we are not your enemies but students of the college. Why are you treating us like this? Come on, be humble, you also know that our demand is humble. ",
+"We are  allready facing lots of  problem coz. Of this pendamic...\nBut cusat wants to conduct old sem exam after starting new sem. It's very hard for students to deal with such situation. Coz students are not even having study materials of previous sem. ",
+"CUSAT authorities have released previous sem exam time table out of the blue as an onam gift to their students.this time it is mixed with supply exams too.considering the mental health of students,on going sem,network issues and pandemic,we want cancellation",
+"Already this pandemic is putting too much pressure on us students. Conducting even sem exams in the midst of odd sem will only increase our pressure to a frightening level",
+"If IITS's and KTU can cancel their sem exams why cant cusat too\n@ShashiTharoor\n@KeralaGovernor\n@asianetnewstv\n@MediaOneTVLive\n@mathrubhuminews\n@manoramanews\n@manoramaonline",
+"When covid cases are increasing day by day the ignorance of CUSAT officials is decreasing somehow",
+"Not everyone has the same facilities. Some wouldnt have good internet. Gives them a huge  disadvantage . Consider cancelling on the spot evaluations.",
+"Currently we are being taught the odd sem portions and now they are demanding us to write the previous even sem examinations within 2 weeks. Its been a long time since we had gone through the Even sem portions.",
+"@CMOKerala\n@KeralaGovernor\n@manoramanews\n@asianetnewstv\nEven the KTU and other well known institutes have made the wise decision of promoting students as per UGC guidelines, even then what is forcing CUSAT to conduct exams in the midst of this pandemic.",
+"Onam Vacations, no. Study Leave, yes. Immediately after the 'SO CALLED' onam vacations, we have sem exams. Thankyou for the surprise gift university",
+"CUSAT is again going to conduct intermediate semester exams during this pandemic but this time it has reached a new level of insane ity \nWe have S3 classes and S2 exams together.Please support our cause.\n@CMOKerala \n@ugc_india\n@KeralaGovernor\n@asianetnewstv",
+"The commencement of previous sem exams seems to be taken without considering any points from students part.Student from all classes had raised many concerns unanimously about the viability of conducting previous sem exams in between the ongoing sem.",
+"Nobody: The highest pressure on Earth occurs in Siberia.\nCusatian: Hold my beer",
+"KTU exams cancelled.\nNIT exams cancelled.\nIITs cancelled their exams .... Then why can't @CUSAT"
+
             ]
 def retrieve_last_seen_id(file_name):
     f_read = open(file_name, 'r')
